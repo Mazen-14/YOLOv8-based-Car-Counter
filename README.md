@@ -62,10 +62,8 @@ pip install -r requirements.txt
 - Change `Videos/cars.mp4` to use a different input video (upload compatible mask first) 
 
 ## 🖼 Example Output
-To visualize the results, check out the example output video:
-```sh
-Videos/output.mp4
-```
+To visualize the results:
+![Car Counter Output](Videos/output.gif)
 
 ---
 **Contributors:** Mazen Mohamed Hemdan (@Mazen-14)
