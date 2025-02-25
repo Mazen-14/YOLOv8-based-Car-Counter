@@ -62,7 +62,10 @@ pip install -r requirements.txt
 - Change `Videos/cars.mp4` to use a different input video (upload compatible mask first) 
 
 ## 🖼 Example Output
-![Example Screenshot](example_output.png)
+To visualize the results, check out the example output video:
+```sh
+Videos/output.mp4
+```
 
 ---
 **Contributors:** Mazen Mohamed Hemdan (@Mazen-14)
