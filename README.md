@@ -15,7 +15,6 @@ CarCounter-YOLOv8
 │   ├── sizing.py      # Resizes mask to fit video
 │── README.md          # Project documentation
 │── requirements.txt   # Required dependencies
-│── .gitignore         # Ignore unnecessary files
 ```
 
 ## 🛠 Installation
@@ -49,7 +48,7 @@ python src/car_counter.py
 
 Install them using:
 ```sh
-pip install ultralytics opencv-python cvzone numpy sort
+pip install -r requirements.txt
 ```
 
 ## 🔍 Features
@@ -59,14 +58,11 @@ pip install ultralytics opencv-python cvzone numpy sort
 ✅ Works with pre-recorded videos
 
 ## 📌 Notes
-- Ensure `mask.png` matches the resolution of the video (use `sizing.py` if needed).
-- Change `Videos/cars.mp4` to use a different input video.
+- Ensure `mask.png` matches the resolution of the video (use `sizing.py` if needed)
+- Change `Videos/cars.mp4` to use a different input video (upload compatible mask first) 
 
 ## 🖼 Example Output
 ![Example Screenshot](example_output.png)
 
-## 📜 License
-MIT License.
-
 ---
-**Contributors:** Your Name (@your-username)
+**Contributors:** Mazen Mohamed Hemdan (@Mazen-14)
